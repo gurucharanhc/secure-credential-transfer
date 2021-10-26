@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-10-24T00:35:18.930182+00:00",
+  "timestamp": "2021-10-26T00:33:11.172499+00:00",
   "repo": "dimmyvi/secure-credential-transfer",
   "labels": [
     {
@@ -228,13 +228,13 @@
       "labels": [],
       "body": "Preparing draft-02:\r\n- fixing typos\r\n- Changing Request header from \"Mailbox-Correlation-Id\" to \"Mailbox-Request-Id\" for clarity \r\n- adding Request Header name it to IANA Considerations",
       "createdAt": "2021-10-22T18:29:25Z",
-      "updatedAt": "2021-10-23T19:29:39Z",
+      "updatedAt": "2021-10-25T18:02:14Z",
       "baseRepository": "dimmyvi/secure-credential-transfer",
       "baseRefName": "main",
       "baseRefOid": "b62ebe8a09a5b00e7d859192cf84b376fc30db7c",
       "headRepository": "dimmyvi/secure-credential-transfer",
       "headRefName": "draft-02",
-      "headRefOid": "c78cc11cdf852ebf8b0fbe4449f87dd3414c94aa",
+      "headRefOid": "fbac9d699f7b56092ab8e38d72a305724b57102b",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
@@ -260,6 +260,13 @@
           "body": "Hi Tommy,\n\nThanks, will fix this on Monday.\n\nOn Saturday, October 23, 2021, yuki ***@***.***> wrote:\n\n> Excuse me\n>\n> I found Security Considerations bullet lists are not displayed correctly\n> on html\n> <https://dimmyvi.github.io/secure-credential-transfer/draft-secure-credential-transfer.html#name-security-considerations>\n>\n> \u2014\n> You are receiving this because you authored the thread.\n> Reply to this email directly, view it on GitHub\n> <https://github.com/dimmyvi/secure-credential-transfer/pull/2#issuecomment-950183971>,\n> or unsubscribe\n> <https://github.com/notifications/unsubscribe-auth/ABN3H5SJW77EN6NQGSSFPQ3UILU4JANCNFSM5GREJLKQ>\n> .\n> Triage notifications on the go with GitHub Mobile for iOS\n> <https://apps.apple.com/app/apple-store/id1477376905?ct=notification-email&mt=8&pt=524675>\n> or Android\n> <https://play.google.com/store/apps/details?id=com.github.android&referrer=utm_campaign%3Dnotification-email%26utm_medium%3Demail%26utm_source%3Dgithub>.\n>\n>\n\n\n-- \nBest regards,\n    Dmitry Vinokurov\n",
           "createdAt": "2021-10-23T19:29:38Z",
           "updatedAt": "2021-10-23T19:29:38Z"
+        },
+        {
+          "author": "dimmyvi",
+          "authorAssociation": "OWNER",
+          "body": "Fixed both issues. IETF document does not seem to allow 3 levels of bullet\nhierarchy...\n\nOn Sat, Oct 23, 2021 at 12:29 PM D V ***@***.***> wrote:\n\n> Hi Tommy,\n>\n> Thanks, will fix this on Monday.\n>\n> On Saturday, October 23, 2021, yuki ***@***.***> wrote:\n>\n>> Excuse me\n>>\n>> I found Security Considerations bullet lists are not displayed correctly\n>> on html\n>> <https://dimmyvi.github.io/secure-credential-transfer/draft-secure-credential-transfer.html#name-security-considerations>\n>>\n>> \u2014\n>> You are receiving this because you authored the thread.\n>> Reply to this email directly, view it on GitHub\n>> <https://github.com/dimmyvi/secure-credential-transfer/pull/2#issuecomment-950183971>,\n>> or unsubscribe\n>> <https://github.com/notifications/unsubscribe-auth/ABN3H5SJW77EN6NQGSSFPQ3UILU4JANCNFSM5GREJLKQ>\n>> .\n>> Triage notifications on the go with GitHub Mobile for iOS\n>> <https://apps.apple.com/app/apple-store/id1477376905?ct=notification-email&mt=8&pt=524675>\n>> or Android\n>> <https://play.google.com/store/apps/details?id=com.github.android&referrer=utm_campaign%3Dnotification-email%26utm_medium%3Demail%26utm_source%3Dgithub>.\n>>\n>>\n>\n>\n> --\n> Best regards,\n>     Dmitry Vinokurov\n>\n\n\n-- \nBest regards,\n    Dmitry Vinokurov\n",
+          "createdAt": "2021-10-25T18:02:14Z",
+          "updatedAt": "2021-10-25T18:02:14Z"
         }
       ],
       "reviews": [
@@ -274,6 +281,48 @@
           "body": "",
           "createdAt": "2021-10-22T18:39:38Z",
           "updatedAt": "2021-10-22T18:39:38Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "id": "PR_kwDOGL7YAs4to-2V",
+      "title": "Update draft-secure-credential-transfer.md regarding specific endpoints' 401",
+      "url": "https://github.com/dimmyvi/secure-credential-transfer/pull/3",
+      "state": "MERGED",
+      "author": "nicksha",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "* Removed response `401` from ReadDisplayInformationFromMailbox. This endpoint does not need to check for device claim and should be accessible publicly. \r\n* Updated `401` description for `ReadSecureContentFromMailbox`.",
+      "createdAt": "2021-10-25T18:10:14Z",
+      "updatedAt": "2021-10-25T18:47:52Z",
+      "baseRepository": "dimmyvi/secure-credential-transfer",
+      "baseRefName": "main",
+      "baseRefOid": "b62ebe8a09a5b00e7d859192cf84b376fc30db7c",
+      "headRepository": "nicksha/secure-credential-transfer",
+      "headRefName": "patch-1",
+      "headRefOid": "f88878e474d2230c89f35d78b4a746226c13b4e5",
+      "closedAt": "2021-10-25T18:47:52Z",
+      "mergedAt": "2021-10-25T18:47:52Z",
+      "mergedBy": "dimmyvi",
+      "mergeCommit": {
+        "oid": "8c4ef8ff4dfa7dda8dab18a187a25326abafc58c"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOGL7YAs4u_2hV",
+          "commit": {
+            "abbreviatedOid": "f88878e"
+          },
+          "author": "dimmyvi",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2021-10-25T18:47:21Z",
+          "updatedAt": "2021-10-25T18:47:21Z",
           "comments": []
         }
       ]

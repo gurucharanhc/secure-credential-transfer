@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-10-26T00:33:11.172499+00:00",
+  "timestamp": "2021-10-28T00:33:58.035979+00:00",
   "repo": "dimmyvi/secure-credential-transfer",
   "labels": [
     {
@@ -228,13 +228,13 @@
       "labels": [],
       "body": "Preparing draft-02:\r\n- fixing typos\r\n- Changing Request header from \"Mailbox-Correlation-Id\" to \"Mailbox-Request-Id\" for clarity \r\n- adding Request Header name it to IANA Considerations",
       "createdAt": "2021-10-22T18:29:25Z",
-      "updatedAt": "2021-10-25T18:02:14Z",
+      "updatedAt": "2021-10-27T21:13:47Z",
       "baseRepository": "dimmyvi/secure-credential-transfer",
       "baseRefName": "main",
       "baseRefOid": "b62ebe8a09a5b00e7d859192cf84b376fc30db7c",
       "headRepository": "dimmyvi/secure-credential-transfer",
       "headRefName": "draft-02",
-      "headRefOid": "fbac9d699f7b56092ab8e38d72a305724b57102b",
+      "headRefOid": "4aa339e00d6eb402cfca2d6cbc79008ee3787e16",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
@@ -323,6 +323,48 @@
           "body": "",
           "createdAt": "2021-10-25T18:47:21Z",
           "updatedAt": "2021-10-25T18:47:21Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "id": "PR_kwDOGL7YAs4tp8gj",
+      "title": "Modified workflow graphs for consistency",
+      "url": "https://github.com/dimmyvi/secure-credential-transfer/pull/4",
+      "state": "MERGED",
+      "author": "nicksha",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "* Updated workflow graphs to use endpoint api terms consistently\r\n* Updated workflow graphs to use consistent language and label placement\r\n* Updated workflow graphs to include flow lines for `encrypted info`",
+      "createdAt": "2021-10-26T01:23:54Z",
+      "updatedAt": "2021-10-26T20:05:36Z",
+      "baseRepository": "dimmyvi/secure-credential-transfer",
+      "baseRefName": "main",
+      "baseRefOid": "8c4ef8ff4dfa7dda8dab18a187a25326abafc58c",
+      "headRepository": "nicksha/secure-credential-transfer",
+      "headRefName": "patch-2",
+      "headRefOid": "4b45b315d6a49da350f2291ed6ed59e81c014aaf",
+      "closedAt": "2021-10-26T20:05:36Z",
+      "mergedAt": "2021-10-26T20:05:36Z",
+      "mergedBy": "dimmyvi",
+      "mergeCommit": {
+        "oid": "5378edce999a8e1ea4705208546350ce529f82b8"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOGL7YAs4vFFVc",
+          "commit": {
+            "abbreviatedOid": "4b45b31"
+          },
+          "author": "dimmyvi",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2021-10-26T20:05:20Z",
+          "updatedAt": "2021-10-26T20:05:20Z",
           "comments": []
         }
       ]

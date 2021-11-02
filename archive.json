@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-10-31T00:35:35.258290+00:00",
+  "timestamp": "2021-11-02T00:36:31.701746+00:00",
   "repo": "dimmyvi/secure-credential-transfer",
   "labels": [
     {
@@ -432,18 +432,26 @@
       "labels": [],
       "body": "Addressing review comments",
       "createdAt": "2021-10-28T23:59:25Z",
-      "updatedAt": "2021-10-28T23:59:25Z",
+      "updatedAt": "2021-11-02T00:12:36Z",
       "baseRepository": "dimmyvi/secure-credential-transfer",
       "baseRefName": "main",
       "baseRefOid": "80bb5c71b8b9a60fd74f231aa92353f433cb8b6e",
       "headRepository": "dimmyvi/secure-credential-transfer",
       "headRefName": "draft-02",
-      "headRefOid": "1cf415a7010406aa2d97c9ea63711943699df7c5",
+      "headRefOid": "51de3798fa37607325519b0f4241c4b78d16e9ee",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
-      "comments": [],
+      "comments": [
+        {
+          "author": "dimmyvi",
+          "authorAssociation": "OWNER",
+          "body": "Added RelinquishMailbox endpoint - to unbind invalid Receiver device",
+          "createdAt": "2021-11-01T23:58:26Z",
+          "updatedAt": "2021-11-01T23:58:26Z"
+        }
+      ],
       "reviews": []
     }
   ]

@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-11-02T00:36:31.701746+00:00",
+  "timestamp": "2021-11-04T00:34:20.694409+00:00",
   "repo": "dimmyvi/secure-credential-transfer",
   "labels": [
     {
@@ -432,13 +432,13 @@
       "labels": [],
       "body": "Addressing review comments",
       "createdAt": "2021-10-28T23:59:25Z",
-      "updatedAt": "2021-11-02T00:12:36Z",
+      "updatedAt": "2021-11-03T20:13:40Z",
       "baseRepository": "dimmyvi/secure-credential-transfer",
       "baseRefName": "main",
       "baseRefOid": "80bb5c71b8b9a60fd74f231aa92353f433cb8b6e",
       "headRepository": "dimmyvi/secure-credential-transfer",
       "headRefName": "draft-02",
-      "headRefOid": "51de3798fa37607325519b0f4241c4b78d16e9ee",
+      "headRefOid": "b14586518a90baaaa036f39d00ff271934f24cc6",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
@@ -452,7 +452,48 @@
           "updatedAt": "2021-11-01T23:58:26Z"
         }
       ],
-      "reviews": []
+      "reviews": [
+        {
+          "id": "PRR_kwDOGL7YAs4vgeZ0",
+          "commit": {
+            "abbreviatedOid": "b145865"
+          },
+          "author": "alexpell00",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2021-11-03T20:09:11Z",
+          "updatedAt": "2021-11-03T20:09:11Z",
+          "comments": [
+            {
+              "originalPosition": 5,
+              "body": "While the Relay server doesn't limit the number of round trips we've said that reusing the same symmetric key isn't sufficient from a security POV. I don't know if we need to include that here, but wanted to call out that if we were to use this for a chatty provisioning we might need to use the first few messages to upgrade the channel's encryption.",
+              "createdAt": "2021-11-03T20:09:11Z",
+              "updatedAt": "2021-11-03T20:09:11Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOGL7YAs4vgfZp",
+          "commit": {
+            "abbreviatedOid": "b145865"
+          },
+          "author": "alexpell00",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2021-11-03T20:13:40Z",
+          "updatedAt": "2021-11-03T20:13:40Z",
+          "comments": [
+            {
+              "originalPosition": 113,
+              "body": "If this is optional then it doesn't think it provides any security benefit. A bad actor could just not send one up. @matthewcbyington what do you think?",
+              "createdAt": "2021-11-03T20:13:40Z",
+              "updatedAt": "2021-11-03T20:13:40Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

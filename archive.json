@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-11-04T00:34:20.694409+00:00",
+  "timestamp": "2021-11-07T00:35:20.172854+00:00",
   "repo": "dimmyvi/secure-credential-transfer",
   "labels": [
     {
@@ -494,6 +494,47 @@
           ]
         }
       ]
+    },
+    {
+      "number": 7,
+      "id": "PR_kwDOGL7YAs4uHHvv",
+      "title": "Add Expiration Field To ReadSecureContentFromMailbox",
+      "url": "https://github.com/dimmyvi/secure-credential-transfer/pull/7",
+      "state": "OPEN",
+      "author": "alexpell00",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "This PR adds a new expiration field to the `ReadSecureContentFromMailbox` json response. This value can be leveraged by receiving clients to show when the share will expire.\r\n\r\nIf a sender wanted to show the share expiration in the open graph preview then they could include the date in the description string when creating the mailbox.",
+      "createdAt": "2021-11-04T19:15:22Z",
+      "updatedAt": "2021-11-05T15:13:24Z",
+      "baseRepository": "dimmyvi/secure-credential-transfer",
+      "baseRefName": "main",
+      "baseRefOid": "80bb5c71b8b9a60fd74f231aa92353f433cb8b6e",
+      "headRepository": "alexpell00/secure-credential-transfer",
+      "headRefName": "expiration-field",
+      "headRefOid": "0ed7a2013496558fb815ef833fefe3a181f9a763",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "matthewcbyington",
+          "authorAssociation": "COLLABORATOR",
+          "body": "@nicksha @crystalyq Everyone OK with this change? I am planning to merge it today if so.",
+          "createdAt": "2021-11-05T15:13:02Z",
+          "updatedAt": "2021-11-05T15:13:02Z"
+        },
+        {
+          "author": "matthewcbyington",
+          "authorAssociation": "COLLABORATOR",
+          "body": "@alexpell00 pending Google's approval we will merge this in. I concur with the change.",
+          "createdAt": "2021-11-05T15:13:24Z",
+          "updatedAt": "2021-11-05T15:13:24Z"
+        }
+      ],
+      "reviews": []
     }
   ]
 }

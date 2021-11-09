@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-11-07T00:35:20.172854+00:00",
+  "timestamp": "2021-11-09T00:34:16.559059+00:00",
   "repo": "dimmyvi/secure-credential-transfer",
   "labels": [
     {
@@ -500,24 +500,26 @@
       "id": "PR_kwDOGL7YAs4uHHvv",
       "title": "Add Expiration Field To ReadSecureContentFromMailbox",
       "url": "https://github.com/dimmyvi/secure-credential-transfer/pull/7",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "alexpell00",
       "authorAssociation": "NONE",
       "assignees": [],
       "labels": [],
       "body": "This PR adds a new expiration field to the `ReadSecureContentFromMailbox` json response. This value can be leveraged by receiving clients to show when the share will expire.\r\n\r\nIf a sender wanted to show the share expiration in the open graph preview then they could include the date in the description string when creating the mailbox.",
       "createdAt": "2021-11-04T19:15:22Z",
-      "updatedAt": "2021-11-05T15:13:24Z",
+      "updatedAt": "2021-11-08T19:17:34Z",
       "baseRepository": "dimmyvi/secure-credential-transfer",
       "baseRefName": "main",
       "baseRefOid": "80bb5c71b8b9a60fd74f231aa92353f433cb8b6e",
       "headRepository": "alexpell00/secure-credential-transfer",
       "headRefName": "expiration-field",
       "headRefOid": "0ed7a2013496558fb815ef833fefe3a181f9a763",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2021-11-08T19:17:34Z",
+      "mergedAt": "2021-11-08T19:17:34Z",
+      "mergedBy": "matthewcbyington",
+      "mergeCommit": {
+        "oid": "e879b58b7c77837b2ac7dd85400a1b22ca213785"
+      },
       "comments": [
         {
           "author": "matthewcbyington",
@@ -532,6 +534,13 @@
           "body": "@alexpell00 pending Google's approval we will merge this in. I concur with the change.",
           "createdAt": "2021-11-05T15:13:24Z",
           "updatedAt": "2021-11-05T15:13:24Z"
+        },
+        {
+          "author": "matthewcbyington",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Merging this in given lack of concerns for a few days. Thanks @alexpell00 !",
+          "createdAt": "2021-11-08T19:17:29Z",
+          "updatedAt": "2021-11-08T19:17:29Z"
         }
       ],
       "reviews": []

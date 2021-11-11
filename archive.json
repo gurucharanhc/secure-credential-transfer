@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-11-09T00:34:16.559059+00:00",
+  "timestamp": "2021-11-11T00:34:22.701674+00:00",
   "repo": "dimmyvi/secure-credential-transfer",
   "labels": [
     {
@@ -507,7 +507,7 @@
       "labels": [],
       "body": "This PR adds a new expiration field to the `ReadSecureContentFromMailbox` json response. This value can be leveraged by receiving clients to show when the share will expire.\r\n\r\nIf a sender wanted to show the share expiration in the open graph preview then they could include the date in the description string when creating the mailbox.",
       "createdAt": "2021-11-04T19:15:22Z",
-      "updatedAt": "2021-11-08T19:17:34Z",
+      "updatedAt": "2021-11-10T20:09:16Z",
       "baseRepository": "dimmyvi/secure-credential-transfer",
       "baseRefName": "main",
       "baseRefOid": "80bb5c71b8b9a60fd74f231aa92353f433cb8b6e",

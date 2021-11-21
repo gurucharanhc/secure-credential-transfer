@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-11-18T00:35:22.571198+00:00",
+  "timestamp": "2021-11-21T00:35:58.075208+00:00",
   "repo": "dimmyvi/secure-credential-transfer",
   "labels": [
     {
@@ -550,24 +550,26 @@
       "id": "PR_kwDOGL7YAs4urutH",
       "title": "Small updates to Create Mailbox Request and Update Mailbox Request",
       "url": "https://github.com/dimmyvi/secure-credential-transfer/pull/8",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "castiz",
       "authorAssociation": "NONE",
       "assignees": [],
       "labels": [],
       "body": "Updating a few small formatting issues, and fixing the Update Mailbox Request description. ",
       "createdAt": "2021-11-17T23:40:20Z",
-      "updatedAt": "2021-11-17T23:42:27Z",
+      "updatedAt": "2021-11-18T21:50:00Z",
       "baseRepository": "dimmyvi/secure-credential-transfer",
       "baseRefName": "main",
       "baseRefOid": "e879b58b7c77837b2ac7dd85400a1b22ca213785",
       "headRepository": "castiz/secure-credential-transfer",
       "headRefName": "fixUpdateMailboxRequest",
       "headRefOid": "c87ac1d967ad863c46ea661c80bdfa852ddbc0ee",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2021-11-18T21:19:24Z",
+      "mergedAt": "2021-11-18T21:19:24Z",
+      "mergedBy": "matthewcbyington",
+      "mergeCommit": {
+        "oid": "92df9a3ccdd30fdc2f65a8acd489548e82c89823"
+      },
       "comments": [
         {
           "author": "castiz",
